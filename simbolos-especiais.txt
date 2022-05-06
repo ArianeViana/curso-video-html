@@ -1,0 +1,33 @@
+<!-- Símbolos especiais
+    &lt; <
+    &gt; >
+    &le; <=
+    &ge; >=    
+
+    símbolos de moedas 
+    &pound;
+    &yen;
+    &euro;  
+    
+    símbolos de marca
+    &copy;
+    &reg;
+    &trade;
+
+    símbolos matemáticos
+    &permil;
+    &sum;
+    &infin;
+    &times;
+    &plusmn;
+    &oplus;
+    &radic; 
+    &ne;
+    
+    setas
+    &larr;
+    &rarr;
+    &uarr;
+    &darr;
+    &harr;
+-->
