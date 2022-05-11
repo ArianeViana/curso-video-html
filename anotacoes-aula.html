@@ -1,18 +1,39 @@
 <!-- 
-    HTML
+    HTML   
     <header> cabeçalho do site 
-    <h1> <h2> ... tag para títulos
-
-    <img src="" alt=""> alt é o texto alternativo para a imagem
-
+    <h1> <h2> ... tag para títulos   
+   
+   
+    formatação
     <br/> quebra de linha  
     &nbsp;  espaço em branco
     <wbr/> faz separação da sílaba, para aparecer o hífen usamos o &shy;
-
     <b> negrito  <i> itálico  <em> ênfase (tag semântica)  <del> texto riscado (tag semântica) 
     <sup> sobrescrito  <sub> subscrito
-
     <pre><code> mostra um código pré formatado
+
+    
+    imagens
+    <img src="" alt=""> alt é o texto alternativo para a imagem
+    <figure> (tag semântica)
+    *toda imagem que faz parte do conteúdo deve estar dentro de um <figure>
+    <figcaption> legenda para a figura, será achada pelos mecanismos de busca(pode ter título e subtítulo)
+
+    listas
+    <ol> -- lista ordenada    
+    você pode escolher o type dentro da tag, para definir a formar que você quer ordenar (type="1" ordena com números, type="a" ordena com letras...)
+    você tbm pode usar o start="numero" e escolher de onde quer começar a lista, se start="3" a lista começara a ser numerado do 3 ou da letra c (se o type for letra)
+    <ul> - lista não ordenada 
+    type = square, circle, disc(valor padrão)
+    <li> -- itens da lista
+
+    links
+    <a href=""> -- você pode colocar a url de um site externo ou linkar uma página do projeto
+    target="_blank" -- para abrir o site em uma aba nova
+    
+    
+   
+
     
     
 
@@ -22,6 +43,27 @@
     text-decoration para sublinhar ou riscar, font-weight para negrito (bold, bolder ou valores)   
     text-align para formatar o texto (centralizar, justificar)
     text-indent para indentar o parágrafo 
+
+    background-image para colocar uma imagem como fundo
+    background-color para mudar a cor de fundo
+    color para a cor da letra
+
+    códido de cores
+    podemos trabalhar com o rgb(vermelho, verde, azul) ou o código hexadecimal #VMVDAZ
+    rgba(vm, vd, az, transparência)  transp. vai de 0(transparente) a 1(opaco)
+    hsl(matiz, saturação%, luminosidade%)
+    hsla(matiz, saturação%, luminosidade%, transparência)
+    
+    classe:hover{} -- efeito que aparece quando passamos o mouse por cima do elemento
+    transition -- tempo para o efeito aparecer totalmente
+
+    list-style: none -- tira as numerações ou ordenadores
+    text-transform -- modifica todo o texto, coloca tudo em maiúsculo, minúsculo, primeira letra capitalizada
+    display: block -- transforma aquele elemento em um bloco
+    display: inline-block -- coloca todos os itens da lista um do lado do outro
+    position relative -- elemento só pode se mexer dentro do conteiner
+    position absolute -- elemento fica livre pelo site
+
 
 
     
