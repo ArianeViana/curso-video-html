@@ -1,8 +1,19 @@
 <!-- 
     HTML   
     <header> cabeçalho do site 
-    <h1> <h2> ... tag para títulos   
-   
+    <h1> <h2> ... tag para títulos 
+    <section> tag para uma sessao 
+        <article> tag para criar vários artigos dentro da mesma section
+    <aside>  tag para constúdos periféricos
+    <footer> tag para o rodapé
+    <table> tag para formatar tabelas
+        <caption> título da tabela
+        <tr> linhas da tabela
+        <td> informação que estará dentro da célula
+            rowspan="2" indica o número de linhas que será ocupado por aquela informação
+            colspan="2" mostra quantas colunas serão ocupadas pela informação
+    
+
    
     formatação
     <br/> quebra de linha  
@@ -31,6 +42,11 @@
     <a href=""> -- você pode colocar a url de um site externo ou linkar uma página do projeto
     target="_blank" -- para abrir o site em uma aba nova
     
+    interface 
+    é parecido com o container, todos os elementos tem uma posição relativa dentro 
+
+
+
     
    
 
@@ -42,11 +58,13 @@
     CSS
     text-decoration para sublinhar ou riscar, font-weight para negrito (bold, bolder ou valores)   
     text-align para formatar o texto (centralizar, justificar)
+    vertical-align para alinhar o elemento verticalmente 
     text-indent para indentar o parágrafo 
 
     background-image para colocar uma imagem como fundo
     background-color para mudar a cor de fundo
     color para a cor da letra
+    box-shadow para criar uma sombra no objeto
 
     códido de cores
     podemos trabalhar com o rgb(vermelho, verde, azul) ou o código hexadecimal #VMVDAZ
@@ -61,8 +79,19 @@
     text-transform -- modifica todo o texto, coloca tudo em maiúsculo, minúsculo, primeira letra capitalizada
     display: block -- transforma aquele elemento em um bloco
     display: inline-block -- coloca todos os itens da lista um do lado do outro
-    position relative -- elemento só pode se mexer dentro do conteiner
-    position absolute -- elemento fica livre pelo site
+    *position relative -- elemento só pode se mexer dentro do container
+    *position absolute -- elemento fica livre pelo site, é independente do objeto container
+
+    a centralização dos elementos é feita pela margin
+    margin: cima, direita, baixo, esquerda    
+    a centralização do conteúdo em relação ao elemento é feita pelo padding
+    margin: cima, direita, baixo, esquerda
+
+    fontes
+    podemos usar fontes padrão
+    fontes baixadas -- @font-face
+    ou fontes disponíveis em algum site -- @import
+
 
 
 
